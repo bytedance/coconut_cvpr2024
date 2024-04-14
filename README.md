@@ -21,7 +21,7 @@ We only provide the annotation, for those who are interesting to use our annotat
   
 ### Example dataset download scripts to build COCONut-S panoptic train dataset:
 
-1. Download the [panoptic masks](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) and [panoptic sements info](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) from google drive.
+1. Download the [panoptic masks](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) and [panoptic sements info](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) from huggingface.
 2. Download the train set images from [COCO dataset](http://images.cocodataset.org/zips/train2017.zip).
 
 The dataset structure should be as follow:
