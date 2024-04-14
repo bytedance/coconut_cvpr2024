@@ -7,6 +7,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 ### TODO
 - [ ] Huggingface dataset preview
 - [ ] Release code to merge dataset split
+- [ ] Convert the annotation to instance/semantic segmentation and object detection.
 - [ ] Release COCONut-L and COCONut-val by the end of April
 
 
