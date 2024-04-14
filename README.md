@@ -14,18 +14,14 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 ## Dataset download
 
-[COCONut-S](https://drive.google.com/file/d/1HJ06YvA-id5ot1owQgWXPcy3Iba0eWl3/view?usp=drive_link), [COCONut-B](https://drive.google.com/file/d/1SfV2lJStzJeyxbxeKfT7b_teiqt3UxXv/view?usp=drive_link), [relabeled-COCO-val](https://drive.google.com/file/d/14FvDOMMYiaMF_PQXBJLz83cywzYwj4mN/view?usp=drive_link) and [panoptic segments informations](https://drive.google.com/drive/folders/1ced4zcGF0G-nZmjJ8CPWhAz643ne-OHZ?usp=drive_link)
+[COCONut-S](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main), [COCONut-B](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main), [relabeled-COCO-val](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) and [annotation informations](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main)
 
-
-
-## Dataset usage
-* Download the images from [COCO dataset](https://cocodataset.org/#download)
-* Download our panoptic masks from [COCONut dataset](https://drive.google.com/drive/folders/1313Uf2LyRKu2czHzmOfDNJepObCUwqRY?usp=drive_link) and the corresponding [panoptic info](https://drive.google.com/drive/folders/1ced4zcGF0G-nZmjJ8CPWhAz643ne-OHZ?usp=drive_link).
+We only provide the annotation, for those who are interesting to use our annotation will need to download the images from [COCO dataset website](https://cocodataset.org/#download).
 
   
 ### Example dataset download scripts to build COCONut-S panoptic train dataset:
 
-1. Download the [panoptic masks](https://drive.google.com/file/d/1HJ06YvA-id5ot1owQgWXPcy3Iba0eWl3/view?usp=drive_link) and [panoptic sements info](https://drive.google.com/file/d/1fTHBZIvz005UBYrkr97yipzUrjeZyh1I/view?usp=drive_link) from google drive.
+1. Download the [panoptic masks](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) and [panoptic sements info](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) from google drive.
 2. Download the train set images from [COCO dataset](http://images.cocodataset.org/zips/train2017.zip).
 
 The dataset structure should be as follow:
