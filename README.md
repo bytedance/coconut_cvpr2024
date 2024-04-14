@@ -16,7 +16,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 [COCONut-S](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main), [COCONut-B](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main), [relabeled-COCO-val](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) and [annotation informations](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main)
 
-We only provide the annotation, for those who are interesting to use our annotation will need to download the images from the links: [COCONut-S](http://images.cocodataset.org/zips/train2017.zip) [COCONut-B](http://images.cocodataset.org/zips/unlabeled2017.zip) and [relabeled COCO-val](http://images.cocodataset.org/zips/val2017.zip).
+We only provide the annotation, for those who are interesting to use our annotation will need to download the images from the links: [COCONut-S](http://images.cocodataset.org/zips/train2017.zip), [COCONut-B](http://images.cocodataset.org/zips/unlabeled2017.zip) and [relabeled COCO-val](http://images.cocodataset.org/zips/val2017.zip).
 
   
 ### Example dataset download scripts to build COCONut-S panoptic train dataset:
