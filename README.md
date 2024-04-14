@@ -1,6 +1,8 @@
 # [CVPR2024] 🥥COCONut: Crafting the Future of Segmentation Datasets with Exquisite Annotations in the Era of ✨Big Data✨
 Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
+
 🔥 1st large-scale human verified dataset for segmentation, more info can be found at our [website](https://xdeng7.github.io/coconut.github.io/)
+
 🔥 Download our dataset at [huggingface](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main)!
 
 <p>
