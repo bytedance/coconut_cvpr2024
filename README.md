@@ -1,7 +1,7 @@
 # [CVPR2024] 🥥COCONut: Crafting the Future of Segmentation Datasets with Exquisite Annotations in the Era of ✨Big Data✨
 Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 <p>
-<img src="vis_masks_video_tasks_v2.gif" alt="teaser" width=90% height=90%>
+<img src="static/vis_masks_video_tasks_v2.gif" alt="teaser" width=90% height=90%>
 </p>
 
 ### TODO
@@ -49,10 +49,10 @@ If you find our dataset useful, please cite:
 
 ## More visualization on COCONut annotation
 <p>
-<img src="vis_simple_mask.png" alt="vis1" width=90% height=90%>
+<img src="static/vis_simple_mask.png" alt="vis1" width=90% height=90%>
 </p>
 <p>
-<img src="vis_dense_mask.png" alt="vis2" width=90% height=90%>
+<img src="static/vis_dense_mask.png" alt="vis2" width=90% height=90%>
 </p>
 
 ## Acknowledgement
