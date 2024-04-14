@@ -23,6 +23,7 @@ We only provide the annotation in our huggingface, for those who are interested 
 
 1. Download the [panoptic masks](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) and [panoptic segments info](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) from huggingface.
 2. Download the train set images from [COCO dataset](http://images.cocodataset.org/zips/train2017.zip).
+3. To use the dataset loader from detectron2, you will need to rename the mask folder to 'panoptic_train2017' and annotation file to 'panoptic_train2017.json'.
 
 The dataset structure should be as follow:
 
