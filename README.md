@@ -21,7 +21,6 @@ Splits    |  #images | #masks | images | annotations
 COCONut-S | 118K     | 1.54M  | [download](http://images.cocodataset.org/zips/train2017.zip) | [huggingface]()
 COCONut-B | 242K     | 2.78M  | [download](http://images.cocodataset.org/zips/unlabeled2017.zip) | [huggingface]()
 COCONut-L | 358K     | 4.75M  | [coming]() | [coming]()
-----------|----------|--------|--------|-------------
 relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [huggingface]()
 COCONut-val | 25K     | 4375M  | [coming]() | [coming]()
 
