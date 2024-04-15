@@ -24,7 +24,7 @@ COCONut-L | 358K     | 4.75M  | [coming]() | [coming]()
 relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [huggingface](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/blob/main/relabeled_coco_val.zip)
 COCONut-val | 25K     | 4375M  | [coming]() | [coming]()
 
-To use the masks, you will need to download the corresponding segments info json fiels, for example, download coconut_s.json for using masks in coconut_s.zip.ß
+To use the masks, you will need to download the corresponding segments info json fiels, for example, download [coconut_s.json](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/blob/main/coconut_s.json) for using masks in [coconut_s.zip](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/blob/main/coconut_s.zip).
 
 ## Dataset usage
 
