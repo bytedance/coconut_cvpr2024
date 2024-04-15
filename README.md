@@ -15,7 +15,18 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 - [ ] Convert the annotation to instance/semantic segmentation and object detection.
 - [ ] Release COCONut-L and COCONut-val by the end of April
 
+## Dataset splits
+Splits    |  #images | #masks | images | annotations
+----------|----------|--------|--------|-------------
+COCONut-S | 118K     | 1.54M  | [download](http://images.cocodataset.org/zips/train2017.zip) | [huggingface]()
+COCONut-B | 242K     | 2.78M  | [download](http://images.cocodataset.org/zips/unlabeled2017.zip) | [huggingface]()
+COCONut-L | 358K     | 4.75M  | [coming]() | [coming]()
+----------|----------|--------|--------|-------------
+relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [huggingface]()
+COCONut-val | 25K     | 4375M  | [coming]() | [coming]()
 
+and so on for COCONut-L, relabeled COCO-val, and COCONut-val
+You can leave the links for COCONut-L and COCONut-val empty (or "coming soon") so that users know that they will be updated soon.
 
 ## Dataset usage
 
