@@ -24,8 +24,6 @@ COCONut-L | 358K     | 4.75M  | [coming]() | [coming]()
 relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [huggingface]()
 COCONut-val | 25K     | 4375M  | [coming]() | [coming]()
 
-and so on for COCONut-L, relabeled COCO-val, and COCONut-val
-You can leave the links for COCONut-L and COCONut-val empty (or "coming soon") so that users know that they will be updated soon.
 
 ## Dataset usage
 
