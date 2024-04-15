@@ -66,6 +66,9 @@ If you find our dataset useful, please cite:
 <img src="static/vis_dense_mask.png" alt="vis2" width=90% height=90%>
 </p>
 
+## Terms of use
+We follow the same license as [COCO dataset for images](https://cocodataset.org/#termsofuse). For COCONut's annotations, non-commercial use are allowed. 
+
 ## Acknowledgement
 * [kMax-DeepLab](https://github.com/bytedance/kmax-deeplab.git)
 * [FC-CLIP](https://github.com/bytedance/fc-clip.git)
