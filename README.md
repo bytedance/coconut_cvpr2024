@@ -9,6 +9,10 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 <img src="static/vis_masks_video_tasks_v2.gif" alt="teaser" width=90% height=90%>
 </p>
 
+
+## ⭐️News!
+* Huggingface download links are temporarily closed, should be open by 4/15 night PT.
+
 ### TODO
 - [ ] Huggingface dataset preview
 - [ ] Release code to merge dataset split
