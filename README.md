@@ -3,7 +3,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 #### 🔥 1st large-scale human verified dataset for segmentation, more info can be found at our [website](https://xdeng7.github.io/coconut.github.io/).
 
-#### 🔥 Download and play with our dataset at [huggingface](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main)!
+#### 🔥 COCONut is now available at [Kaggle](https://www.kaggle.com/datasets/xueqingdeng/coconut/), welcome to download!
 
 <p>
 <img src="static/vis_masks_video_tasks_v2.gif" alt="teaser" width=90% height=90%>
@@ -11,7 +11,8 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## ⭐️News!
-* Huggingface download links are temporarily closed, should be open by 4/15 night PT.
+* COCONut is available at Kaggle! Tutorial is coming! Stay tuned!
+* Huggingface download links are temporarily closed.
 
 ### TODO
 - [ ] Huggingface dataset preview
