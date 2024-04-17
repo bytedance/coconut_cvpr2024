@@ -10,8 +10,9 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 </p>
 
 
-## ⭐️News!
+## 📢 News!
 * COCONut is available at Kaggle! Tutorial is coming! Stay tuned!
+* COCONut is higlighted by AK's [daily paper](https://huggingface.co/papers?date=2024-04-15)!
 * Huggingface download links are temporarily closed.
 
 ### TODO
