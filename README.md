@@ -33,11 +33,12 @@ To use the masks, you will need to download the corresponding segments info json
 
 ## Dataset usage
 
+* Please refer to [get_started.md](get_started.md) for detailed instruction of using the dataset.
+
 [COCONut-S](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main), [COCONut-B](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main), [relabeled-COCO-val](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) and [annotation informations](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main)
 
 We only provide the annotation in our huggingface, for those who are interested to use our annotation will need to download the images from the links: [COCONut-S images](http://images.cocodataset.org/zips/train2017.zip), [COCONut-B images](http://images.cocodataset.org/zips/unlabeled2017.zip) and [relabeled COCO-val images](http://images.cocodataset.org/zips/val2017.zip).
 
-Please refer to [get_started.md](get_started.md) for detailed instruction of using the dataset.
 
   
 ### Example dataset download scripts to build COCONut-S panoptic train dataset:
