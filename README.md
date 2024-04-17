@@ -1,6 +1,11 @@
 # [CVPR2024] 🥥COCONut: Crafting the Future of Segmentation Datasets with Exquisite Annotations in the Era of ✨Big Data✨
 Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
+[![Dataset](https://img.shields.io/badge/Dataset-Access-<COLOR>)](https://www.kaggle.com/datasets/xueqingdeng/coconut/)
+[![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://xdeng7.github.io/coconut.github.io/)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2404.08639)
+[![Full Paper](https://img.shields.io/badge/Full_Paper-Read-0000FF.svg)](coconut_arxiv.pdf)
+
 
 ## 🚀 Contributions
 
