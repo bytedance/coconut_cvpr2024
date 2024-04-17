@@ -27,11 +27,12 @@ pip install git+https://github.com/cocodataset/panopticapi.git
 
 2. Dataset preperation and structure for evaluation as below. You need to download ['relabeled_COCO_val'](https://www.kaggle.com/datasets/xueqingdeng/coconut/) and rename it to 'panoptic_val2017', and rename the corresponding json file and download the images from [COCO dataset](http://images.cocodataset.org/zips/val2017.zip).
 ```
-coco
-  val2017 # original COCO dataset val set images
-  panoptic_val2017  # relabeled_coco_val
-  annotations
-    panoptic_val2017.json # relabeled_coco_val.json
+datasets
+└── coco
+    ├── annotations 
+    │   └── panoptic_val2017.json # relabeled_coco_val.json
+    ├── panoptic_val2017  # relabeled_coco_val
+    ├── val2017 # original COCO dataset val set images
 ```
 
 
