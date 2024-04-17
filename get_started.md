@@ -2,7 +2,7 @@
 
 ### Requirements
 - Linux or macOS with Python ≥ 3.8
-- CUDA==11.7
+- CUDA>=11.7, lower CUDA versions may result in not successfully built on detectron2
 - `pip install -r requirements.txt`
 
 
