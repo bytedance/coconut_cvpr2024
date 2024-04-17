@@ -14,7 +14,7 @@ python3 -m virtualenv kmax_deeplab --python=python3
 source kmax_deeplab/bin/activate
 
 pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 unzip detectron2.zip
 cd detectron2
 pip install -e .
