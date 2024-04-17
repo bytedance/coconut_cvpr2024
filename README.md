@@ -40,7 +40,7 @@ COCONut-val | 25K     | 437K  | [coming]() | [coming]()
 
 To use the masks, you will need to download the corresponding segments info json files, for example, download [coconut_s.json](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/blob/main/coconut_s.json) for using masks in [coconut_s.zip](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/blob/main/coconut_s.zip).
 
-## Dataset usage
+## Get started
 
 * Please refer to [get_started.md](get_started.md) for detailed instruction of using the dataset.
 
