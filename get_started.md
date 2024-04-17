@@ -20,8 +20,6 @@ cd detectron2
 pip install -e .
 pip install git+https://github.com/cocodataset/panopticapi.git
 
-
-
 conda create --name mask2former python=3.8 -y
 conda activate mask2former
 conda install pytorch==1.9.0 torchvision==0.10.0 cudatoolkit=11.1 -c pytorch -c nvidia
