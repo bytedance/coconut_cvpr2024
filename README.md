@@ -37,6 +37,8 @@ To use the masks, you will need to download the corresponding segments info json
 
 We only provide the annotation in our huggingface, for those who are interested to use our annotation will need to download the images from the links: [COCONut-S images](http://images.cocodataset.org/zips/train2017.zip), [COCONut-B images](http://images.cocodataset.org/zips/unlabeled2017.zip) and [relabeled COCO-val images](http://images.cocodataset.org/zips/val2017.zip).
 
+Please refer to [get_started.md](get_started.md) for detailed instruction of using the dataset.
+
   
 ### Example dataset download scripts to build COCONut-S panoptic train dataset:
 
