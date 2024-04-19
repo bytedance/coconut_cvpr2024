@@ -57,3 +57,12 @@ python3 demo.py --config-file ../configs/coco/panoptic-segmentation/kmax_convnex
 --output  OUTPUT_VIS_FOLDER  \
 --opts MODEL.WEIGHTS  YOUR_MODEL_PATH
 ```
+
+### Distributed training
+Need to set up your environment variables to run the training script below. 
+```bash
+export DETECTRON2_DATASETS=YOUR_DATASET_PATH
+python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
+--machine-rank $WORKER_ID --dist-url tcp://$WORKER_0_HOST:$port \
+--config-file configs/coco/panoptic-segmentation/kmax_convnext_large.yaml 
+```
