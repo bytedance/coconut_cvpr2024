@@ -44,29 +44,11 @@ To use the masks, you will need to download the corresponding segments info json
 
 * Please refer to [get_started.md](get_started.md) for detailed instruction of using the dataset.
 
-[COCONut-S](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main), [COCONut-B](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main), [relabeled-COCO-val](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) and [annotation informations](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main)
 
-We only provide the annotation in our huggingface, for those who are interested to use our annotation will need to download the images from the links: [COCONut-S images](http://images.cocodataset.org/zips/train2017.zip), [COCONut-B images](http://images.cocodataset.org/zips/unlabeled2017.zip) and [relabeled COCO-val images](http://images.cocodataset.org/zips/val2017.zip).
+We only provide the annotation, for those who are interested to use our annotation will need to download the images from the links: [COCONut-S images](http://images.cocodataset.org/zips/train2017.zip), [COCONut-B images](http://images.cocodataset.org/zips/unlabeled2017.zip) and [relabeled COCO-val images](http://images.cocodataset.org/zips/val2017.zip).
 
 
   
-### Example dataset download scripts to build COCONut-S panoptic train dataset:
-
-1. Download the [panoptic masks](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) and [panoptic segments info](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/tree/main) from huggingface.
-2. Download the train set images from [COCO dataset](http://images.cocodataset.org/zips/train2017.zip).
-3. To use the dataset loader from detectron2, you will need to rename the mask folder to 'panoptic_train2017' and annotation file to 'panoptic_train2017.json'.
-
-The dataset structure should be as follow:
-
-
-```
-COCONut-S
-  train2017
-  panoptic_train2017
-  annotations
-    panoptic_train2017.json
-```
-
 If you find our dataset useful, please cite:
 ```
 @inproceedings{coconut2024cvpr,
