@@ -19,7 +19,8 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## 📢 News!
-* 4/16: COCONut is available at Kaggle! Tutorial is coming! Stay tuned!
+* 4/22: COCONut-B is ready to use directly when downloaded from Kaggle, no need to merge from COCONut-S.
+* 4/16: COCONut is available at Kaggle! Check tutorial on [panoptic segmentation](get_started.md). More tutorial is coming! Stay tuned!
 * 4/15: COCONut is higlighted by AK's [daily paper](https://huggingface.co/papers?date=2024-04-15)!
 * 4/15: Huggingface download links are temporarily closed.
 
