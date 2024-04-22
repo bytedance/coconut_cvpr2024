@@ -32,10 +32,10 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 ## Dataset splits
 Splits    |  #images | #masks | images | annotations
 ----------|----------|--------|--------|-------------
-COCONut-S | 118K     | 1.54M  | [download](http://images.cocodataset.org/zips/train2017.zip) | [huggingface](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/blob/main/coconut_s.zip)
-COCONut-B | 242K     | 2.78M  | [download](http://images.cocodataset.org/zips/unlabeled2017.zip) | [huggingface](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/blob/main/coconut_b.zip)
+COCONut-S | 118K     | 1.54M  | [download](http://images.cocodataset.org/zips/train2017.zip) | [Kaggle](https://www.kaggle.com/datasets/xueqingdeng/coconut)
+COCONut-B | 242K     | 2.78M  | [download](http://images.cocodataset.org/zips/unlabeled2017.zip) | [Kaggle](https://www.kaggle.com/datasets/xueqingdeng/coconut)
 COCONut-L | 358K     | 4.75M  | [coming]() | [coming]()
-relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [huggingface](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/blob/main/relabeled_coco_val.zip)
+relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [Kaggle](https://www.kaggle.com/datasets/xueqingdeng/coconut)
 COCONut-val | 25K     | 437K  | [coming]() | [coming]()
 
 To use the masks, you will need to download the corresponding segments info json files, for example, download [coconut_s.json](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/blob/main/coconut_s.json) for using masks in [coconut_s.zip](https://huggingface.co/datasets/xdeng77/coconut_cvpr2024/blob/main/coconut_s.zip).
