@@ -55,7 +55,8 @@ Tutorials on [panoptic segmentation](kmaxdeeplab_panoptic/README.md), [instance 
 
 We summarize the common issues in [FAQ.md](FAQ.md), please check this out before you create any new issues.
 
-  
+
+#### Bibtex  
 If you find our dataset useful, please cite:
 ```
 @inproceedings{coconut2024cvpr,
