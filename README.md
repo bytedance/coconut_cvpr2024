@@ -29,7 +29,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 - [ ] Convert the annotation to semantic segmentation and object detection.
 - [ ] Release COCONut-L and COCONut-val by the end of April
 
-## Dataset splits
+## Dataset Splits
 Splits    |  #images | #masks | images | annotations
 ----------|----------|--------|--------|-------------
 COCONut-S | 118K     | 1.54M  | [download](http://images.cocodataset.org/zips/train2017.zip) | [Kaggle](https://www.kaggle.com/datasets/xueqingdeng/coconut)
@@ -40,7 +40,7 @@ COCONut-val | 25K     | 437K  | [coming]() | [coming]()
 
 
 
-## Get started
+## Get Started
 
 
 
