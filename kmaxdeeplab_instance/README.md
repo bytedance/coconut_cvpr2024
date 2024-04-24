@@ -22,7 +22,7 @@ pip install pycocotools
 ```
 
 ### Example test model checkpoint of kMaX-DeepLab
-1. Download the [checkpoint]().
+1. Download the [checkpoint](https://drive.google.com/file/d/1TCXCVh3dBUuF_7htUND72TWXMe4sP1UZ/view?usp=sharing).
 
 
 2. Dataset preperation and structure for evaluation as below. You need to download ['relabeled_COCO_val'](https://www.kaggle.com/datasets/xueqingdeng/coconut/) and  json file and download the images from [COCO dataset](http://images.cocodataset.org/zips/val2017.zip).
