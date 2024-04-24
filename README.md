@@ -19,7 +19,9 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## 📢 News!
-* 4/22: Tutorials on panoptic and instance segmentation are out! More are coming!
+* 4/24: Collected FAQs are out, please check them before you leave any issue.
+* 4/22: Tutorial on instance segmentation is out! More are coming!
+* 4/19: Tutorial on panoptic segmentation is out!
 * 4/16: COCONut is available at Kaggle! No need to merge COCONut-B from COCONut-S, update a version of ready-to-use.
 * 4/15: COCONut is higlighted by AK's [daily paper](https://huggingface.co/papers?date=2024-04-15)!
 * 4/15: Huggingface download links are temporarily closed.
