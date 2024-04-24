@@ -19,14 +19,14 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## 📢 News!
-* 4/22: Tutorials on panoptic and instance segmentation are out!
-* 4/16: COCONut is available at Kaggle! Tutorial is coming! Stay tuned!
+* 4/22: Tutorials on panoptic and instance segmentation are out! More are coming!
+* 4/16: COCONut is available at Kaggle! No need to merge COCONut-B from COCONut-S, update a version of ready-to-use.
 * 4/15: COCONut is higlighted by AK's [daily paper](https://huggingface.co/papers?date=2024-04-15)!
 * 4/15: Huggingface download links are temporarily closed.
 
 ### TODO
 - [ ] Huggingface dataset preview
-- [ ] Convert the annotation to instance/semantic segmentation and object detection.
+- [ ] Convert the annotation to semantic segmentation and object detection.
 - [ ] Release COCONut-L and COCONut-val by the end of April
 
 ## Dataset splits
