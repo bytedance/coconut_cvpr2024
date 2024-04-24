@@ -19,14 +19,13 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## 📢 News!
-* 4/22: COCONut-B is ready to use directly when downloaded from Kaggle, no need to merge from COCONut-S.
-* 4/16: COCONut is available at Kaggle! Check tutorial on [panoptic segmentation](get_started.md). More tutorial is coming! Stay tuned!
+* 4/22: Tutorials on panoptic and instance segmentation are out!
+* 4/16: COCONut is available at Kaggle! Tutorial is coming! Stay tuned!
 * 4/15: COCONut is higlighted by AK's [daily paper](https://huggingface.co/papers?date=2024-04-15)!
 * 4/15: Huggingface download links are temporarily closed.
 
 ### TODO
 - [ ] Huggingface dataset preview
-- [ ] Release code to merge dataset split
 - [ ] Convert the annotation to instance/semantic segmentation and object detection.
 - [ ] Release COCONut-L and COCONut-val by the end of April
 
@@ -43,10 +42,13 @@ COCONut-val | 25K     | 437K  | [coming]() | [coming]()
 
 ## Get started
 
-* Please refer to [get_started.md](get_started.md) for detailed instruction of using the dataset.
 
 
 We only provide the annotation, for those who are interested to use our annotation will need to download the images from the links: [COCONut-S images](http://images.cocodataset.org/zips/train2017.zip), [COCONut-B images](http://images.cocodataset.org/zips/unlabeled2017.zip) and [relabeled COCO-val images](http://images.cocodataset.org/zips/val2017.zip).
+
+
+Tutorials on [panoptic segmentation](kmaxdeeplab_panoptic/README.md), [instance segmentation](kmaxdeeplab_instance/README.md) with kMaX-DeepLab.
+
 
 
   
