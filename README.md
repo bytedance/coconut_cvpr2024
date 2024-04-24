@@ -47,7 +47,10 @@ COCONut-val | 25K     | 437K  | [coming]() | [coming]()
 We only provide the annotation, for those who are interested to use our annotation will need to download the images from the links: [COCONut-S images](http://images.cocodataset.org/zips/train2017.zip), [COCONut-B images](http://images.cocodataset.org/zips/unlabeled2017.zip) and [relabeled COCO-val images](http://images.cocodataset.org/zips/val2017.zip).
 
 
-Tutorials on [panoptic segmentation](kmaxdeeplab_panoptic/README.md), [instance segmentation](kmaxdeeplab_instance/README.md) with kMaX-DeepLab.
+## Tutorials
+
+ **[panoptic segmentation](kmaxdeeplab_panoptic/README.md)**
+ **[instance segmentation](kmaxdeeplab_instance/README.md)**
 
 
 

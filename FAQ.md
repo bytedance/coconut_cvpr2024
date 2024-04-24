@@ -3,6 +3,7 @@
 ________________________________________________________________________________
 
 **Q1: Why the downloaded images are all black?**
+
 A: There are colors in the image but hard to be noticed. The reason is that we did not 100% align the colors in panopticapi. But using panopticapi utils, you can convert these almost black masks into overlayed colored masks using detectron2. We show an example visualization script using detectron2 below to visualize our masks.
 
 
