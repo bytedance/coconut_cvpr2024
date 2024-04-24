@@ -51,8 +51,9 @@ We only provide the annotation, for those who are interested to use our annotati
 
 ## Tutorials
 
- **[panoptic segmentation](kmaxdeeplab_panoptic/README.md)**
- **[instance segmentation](kmaxdeeplab_instance/README.md)**
+ * [panoptic segmentation](kmaxdeeplab_panoptic/README.md)
+
+ * [instance segmentation](kmaxdeeplab_instance/README.md)
 
 
 
