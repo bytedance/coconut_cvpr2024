@@ -51,6 +51,10 @@ Tutorials on [panoptic segmentation](kmaxdeeplab_panoptic/README.md), [instance 
 
 
 
+## FAQ
+
+We summarize the common issues in [FAQ.md](FAQ.md), please check this out before you create any new issues.
+
   
 If you find our dataset useful, please cite:
 ```
