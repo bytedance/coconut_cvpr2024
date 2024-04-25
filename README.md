@@ -50,7 +50,7 @@ We only provide the annotation, for those who are interested to use our annotati
 
 
 ## Tutorials
- * [visualization on our panoptic mask annotations][tutorials/visualization/demo.ipynb]
+ * [visualization on COCONut panoptic masks](tutorials/visualization/demo.ipynb)
 
  * [panoptic segmentation](tutorials/kmaxdeeplab_panoptic/README.md)
 
