@@ -50,10 +50,11 @@ We only provide the annotation, for those who are interested to use our annotati
 
 
 ## Tutorials
+ * [visualization on our panoptic mask annotations][tutorials/visualization/demo.ipynb]
 
- * [panoptic segmentation](kmaxdeeplab_panoptic/README.md)
+ * [panoptic segmentation](tutorials/kmaxdeeplab_panoptic/README.md)
 
- * [instance segmentation](kmaxdeeplab_instance/README.md)
+ * [instance segmentation](tutorials/kmaxdeeplab_instance/README.md)
 
 
 
