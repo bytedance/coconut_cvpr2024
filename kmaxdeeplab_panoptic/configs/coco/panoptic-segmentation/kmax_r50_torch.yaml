@@ -1,7 +1,0 @@
-_BASE_: kmax_r50_tf.yaml
-MODEL:
-  # backbone part.
-  BACKBONE:
-    FREEZE_AT: 0
-    NAME: "build_resnet_backbone"
-  WEIGHTS: "../R-50.pkl"
