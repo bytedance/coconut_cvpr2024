@@ -1,0 +1,9 @@
+cython
+scipy
+shapely
+timm
+h5py
+submitit
+scikit-image
+pillow==9.1.0
+opencv-python-headless
