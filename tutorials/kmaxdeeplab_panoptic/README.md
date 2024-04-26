@@ -66,3 +66,104 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
 --machine-rank $WORKER_ID --dist-url tcp://$WORKER_0_HOST:$port \
 --config-file configs/coco/panoptic-segmentation/kmax_convnext_large.yaml 
 ```
+
+
+### Model zoo
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-pb0m{border-color:inherit;text-align:center;vertical-align:bottom}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"></th>
+    <th class="tg-0lax"></th>
+    <th class="tg-pb0m" colspan="3">coco-val</th>
+    <th class="tg-pb0m" colspan="3">relabeled coco-val</th>
+    <th class="tg-pb0m" colspan="3">coconut-val</th>
+    <th class="tg-baqh" colspan="2">checkpoint</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">backbone</td>
+    <td class="tg-0lax">training set</td>
+    <td class="tg-baqh">PQ</td>
+    <td class="tg-baqh">AP_mask</td>
+    <td class="tg-baqh">mIoU</td>
+    <td class="tg-baqh">PQ</td>
+    <td class="tg-baqh">AP_mask</td>
+    <td class="tg-baqh">mIoU</td>
+    <td class="tg-baqh">PQ</td>
+    <td class="tg-baqh">AP_mask</td>
+    <td class="tg-baqh">mIoU</td>
+    <td class="tg-0lax">gdrive</td>
+    <td class="tg-0lax">baidu</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="4">ResNet 50</td>
+    <td class="tg-0lax">COCO</td>
+    <td class="tg-pb0m">53.3</td>
+    <td class="tg-pb0m">39.6</td>
+    <td class="tg-pb0m">61.7</td>
+    <td class="tg-pb0m">55.1</td>
+    <td class="tg-pb0m">40.6</td>
+    <td class="tg-pb0m">63.9</td>
+    <td class="tg-pb0m">53.1</td>
+    <td class="tg-pb0m">37.1</td>
+    <td class="tg-pb0m">62.5</td>
+    <td class="tg-0lax"><a href="https://drive.google.com/file/d/1EyTbKUnFjUOEo57YZMawfl51LUkkLwXa/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
+    <td class="tg-0lax">coming</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">COCONut-S</td>
+    <td class="tg-baqh">51.7</td>
+    <td class="tg-baqh">37.5</td>
+    <td class="tg-baqh">59.4</td>
+    <td class="tg-baqh">58.9</td>
+    <td class="tg-baqh">44.4</td>
+    <td class="tg-baqh">64.4</td>
+    <td class="tg-baqh">56.7</td>
+    <td class="tg-baqh">41.2</td>
+    <td class="tg-baqh">63.6</td>
+    <td class="tg-0lax"><a href="https://drive.google.com/file/d/1MPZJVIIs-F6AF8bSZo2wJXqlvO1k0Nrj/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
+    <td class="tg-0lax">coming</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">COCONut-B</td>
+    <td class="tg-baqh">53.4</td>
+    <td class="tg-baqh">39.3</td>
+    <td class="tg-baqh">62.6</td>
+    <td class="tg-baqh">60.2</td>
+    <td class="tg-baqh">45.2</td>
+    <td class="tg-baqh">65.7</td>
+    <td class="tg-baqh">58.1</td>
+    <td class="tg-baqh">42.9</td>
+    <td class="tg-baqh">64.7</td>
+    <td class="tg-0lax"><a href="https://drive.google.com/file/d/1EW07Wg9pMpmlA2G9WT-P5ttgahkrfgJz/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
+    <td class="tg-0lax">coming</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">COCONut-L</td>
+    <td class="tg-baqh">54.1</td>
+    <td class="tg-baqh">40.2</td>
+    <td class="tg-baqh">63.1</td>
+    <td class="tg-baqh">60.7</td>
+    <td class="tg-baqh">45.8</td>
+    <td class="tg-baqh">66.1</td>
+    <td class="tg-baqh">60.7</td>
+    <td class="tg-baqh">44.8</td>
+    <td class="tg-baqh">68.3</td>
+    <td class="tg-0lax">coming</td>
+    <td class="tg-0lax">coming</td>
+  </tr>
+</tbody>
+</table>
