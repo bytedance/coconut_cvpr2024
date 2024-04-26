@@ -70,7 +70,6 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
 
 ### Model zoo
 
-
 <table class="tg">
 <thead>
   <tr>
@@ -154,6 +153,94 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td class="tg-baqh">68.3</td>
     <td class="tg-0lax">coming</td>
     <td class="tg-0lax">coming</td>
+  </tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th></th>
+    <th colspan="3">coco-val</th>
+    <th colspan="3">relabeled coco-val</th>
+    <th colspan="3">coconut-val</th>
+    <th colspan="2">checkpoint</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>backbone</td>
+    <td>training set</td>
+    <td>PQ</td>
+    <td>AP_mask</td>
+    <td>mIoU</td>
+    <td>PQ</td>
+    <td>AP_mask</td>
+    <td>mIoU</td>
+    <td>PQ</td>
+    <td>AP_mask</td>
+    <td>mIoU</td>
+    <td>gdrive</td>
+    <td>baidu</td>
+  </tr>
+  <tr>
+    <td rowspan="4">ConvNeXt-Large</td>
+    <td>COCO</td>
+    <td>57.9</td>
+    <td>45.0</td>
+    <td>66.9</td>
+    <td>60.4</td>
+    <td>46.4</td>
+    <td>69.9</td>
+    <td>58.3</td>
+    <td>44.1</td>
+    <td>66.4</td>
+    <td><a href="https://drive.google.com/file/d/1JWwQY_VPCVKrmDhROHalYpXwpQoPJUqz/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
+    <td>coming</td>
+  </tr>
+  <tr>
+    <td>COCONut-S</td>
+    <td>55.9</td>
+    <td>41.9</td>
+    <td>66.1</td>
+    <td>64.4</td>
+    <td>50.8</td>
+    <td>71.4</td>
+    <td>59.4</td>
+    <td>45.7</td>
+    <td>67.8</td>
+    <td><a href="https://drive.google.com/file/d/14S2QrJqnlbeSK2qMyD3i01eoup4XsVOq/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
+    <td>coming</td>
+  </tr>
+  <tr>
+    <td>COCONut-B</td>
+    <td>57.8</td>
+    <td>44.8</td>
+    <td>66.6</td>
+    <td>64.9</td>
+    <td>51.2</td>
+    <td>71.8</td>
+    <td>61.3</td>
+    <td>46.5</td>
+    <td>69.5</td>
+    <td><a href="https://drive.google.com/file/d/12Fdmbyz-0jIDtj6swtJQzsuIk8LWEAw0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
+    <td>coming</td>
+  </tr>
+  <tr>
+    <td>COCONut-L</td>
+    <td>58.1</td>
+    <td>45.3</td>
+    <td>67.3</td>
+    <td>65.1</td>
+    <td>51.4</td>
+    <td>71.9</td>
+    <td>62.7</td>
+    <td>47.6</td>
+    <td>70.6</td>
+    <td>coming</td>
+    <td>coming</td>
   </tr>
 </tbody>
 </table>
