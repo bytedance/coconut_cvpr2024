@@ -9,7 +9,6 @@ import pycocotools.mask as mask_utils
 from panopticapi.utils import rgb2id
 # from detectron2.data.datasets.builtin_meta import COCO_CATEGORIES
 from tqdm import tqdm
-from coco_meta import COCO_META 
 from skimage import measure
 from itertools import groupby
 import argparse
@@ -77,7 +76,7 @@ def binary_mask_to_polygon(binary_mask, tolerance=2):
 
 
 
-def __main__():
+if __name__ == "__main__":
     args = get_parser()
     mask_dir=args.mask_dir
     panseg_info=args.panseg_info
@@ -93,9 +92,9 @@ def __main__():
     with open(panseg_info,'r') as f:
         panseg_info=json.load(f)
 
-    for anno in panseg_info['annotations']:
+    for anno in tqdm(panseg_info['annotations']):
 
-        img_id=anno['img_id']
+        img_id=anno['image_id']
         img_id=f'{img_id:012d}'
 
         segments_info=anno['segments_info']
@@ -117,7 +116,7 @@ def __main__():
         if not os.path.exists(mask_path):
                 continue
 
-        panoptic_orig = np.asarray(Image.open(f'{mask_dir}/{mask_name}.png'), dtype=np.uint32)
+        panoptic_orig = np.asarray(Image.open(f'{mask_dir}/{img_id}.png'), dtype=np.uint32)
         panseg = rgb2id(panoptic_orig)
 
 
@@ -129,7 +128,7 @@ def __main__():
             box_id += 1
             segment_id=segment_info['id']
             
-            mask_shape=mask.shape
+            mask_shape=panseg.shape
             binary_mask=np.array(panseg==segment_id,dtype=np.int32)
 
             item={}
@@ -137,7 +136,7 @@ def __main__():
             item['category_id']=segment_info['category_id']
             item['id']=box_id
             item['iscrowd']=segment_info['iscrowd']       
-            item['area']=np.count_nonzero(np.array(mask>127,dtype=np.float32))
+            item['area']=np.count_nonzero(np.array(binary_mask>0,dtype=np.float32))
 
             segmentation = np.where(binary_mask>0)
 
@@ -174,5 +173,5 @@ def __main__():
 
 
                 
-with open(args.output,'w') as f:
-    json.dump(out_annos,f,indent=4)
+    with open(args.output,'w') as f:
+        json.dump(out_annos,f,indent=4)
