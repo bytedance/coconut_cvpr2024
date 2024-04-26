@@ -1,13 +1,11 @@
 import os
 import copy
 import json
-# import mmcv
 import cv2
 import numpy as np
 import pdb
 import pycocotools.mask as mask_utils
 from panopticapi.utils import rgb2id
-# from detectron2.data.datasets.builtin_meta import COCO_CATEGORIES
 from tqdm import tqdm
 from skimage import measure
 from itertools import groupby
@@ -16,14 +14,15 @@ from PIL import Image
 
 
 def get_parser():
-	parser = argparse.ArgumentParser(description='extract corners from annotation')
-	parser.add_argument('--mask-dir', type=str, help='panoptic segmentation mask dir')
+    parser = argparse.ArgumentParser(description='extract corners from annotation')
+    parser.add_argument('--mask-dir', type=str, help='panoptic segmentation mask dir')
     parser.add_argument('--image-dir', type=str, help='image dir')
-	parser.add_argument('--panseg-info', type=str, help='input panseg info json file')
+    parser.add_argument('--split', default='val', type=str, help='train/val/test')
+    parser.add_argument('--panseg-info', type=str, help='input panseg info json file')
     parser.add_argument('--output', type=str, help='output json file path for instances')
-	args = parser.parse_args()
+    args = parser.parse_args()
 
-	return args
+    return args
 
 
 def close_contour(contour):
@@ -101,7 +100,7 @@ if __name__ == "__main__":
 
         img_dict={}
         img_dict["license"]=3
-        image_path=f'{img_dir}/{img_id}.jpg'
+        image_path=f'{args.image_dir}/{img_id}.jpg'
         img_dict["file_name"]=img_id+'.jpg'
         image=cv2.imread(image_path)
         img_shape=image.shape
@@ -109,7 +108,7 @@ if __name__ == "__main__":
         img_dict["width"]=img_shape[1]
         img_dict['id']=int(img_id)
         img_dict['date_captured']= '2013-11-14 16:03:19'
-        img_dict['coco_url']= f'http://images.cocodataset.org/{split}2017/{img_id}.jpg'
+        img_dict['coco_url']= f'http://images.cocodataset.org/{args.split}2017/{img_id}.jpg'
         img_list.append(img_dict)
 
         mask_path=f'{mask_dir}/{img_id}.png'
