@@ -140,20 +140,6 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td class="tg-0lax"><a href="https://drive.google.com/file/d/1EW07Wg9pMpmlA2G9WT-P5ttgahkrfgJz/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
     <td class="tg-0lax">coming</td>
   </tr>
-  <!-- <tr>
-    <td class="tg-0lax">COCONut-L</td>
-    <td class="tg-baqh">54.1</td>
-    <td class="tg-baqh">40.2</td>
-    <td class="tg-baqh">63.1</td>
-    <td class="tg-baqh">60.7</td>
-    <td class="tg-baqh">45.8</td>
-    <td class="tg-baqh">66.1</td>
-    <td class="tg-baqh">60.7</td>
-    <td class="tg-baqh">44.8</td>
-    <td class="tg-baqh">68.3</td>
-    <td class="tg-0lax">coming</td>
-    <td class="tg-0lax">coming</td>
-  </tr> -->
 </tbody>
 </table>
 
@@ -228,19 +214,5 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td><a href="https://drive.google.com/file/d/12Fdmbyz-0jIDtj6swtJQzsuIk8LWEAw0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
     <td>coming</td>
   </tr>
- <!--  <tr>
-    <td>COCONut-L</td>
-    <td>58.1</td>
-    <td>45.3</td>
-    <td>67.3</td>
-    <td>65.1</td>
-    <td>51.4</td>
-    <td>71.9</td>
-    <td>62.7</td>
-    <td>47.6</td>
-    <td>70.6</td>
-    <td>coming</td>
-    <td>coming</td>
-  </tr> -->
 </tbody>
 </table>
