@@ -140,7 +140,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td class="tg-0lax"><a href="https://drive.google.com/file/d/1EW07Wg9pMpmlA2G9WT-P5ttgahkrfgJz/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
     <td class="tg-0lax">coming</td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td class="tg-0lax">COCONut-L</td>
     <td class="tg-baqh">54.1</td>
     <td class="tg-baqh">40.2</td>
@@ -153,7 +153,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td class="tg-baqh">68.3</td>
     <td class="tg-0lax">coming</td>
     <td class="tg-0lax">coming</td>
-  </tr>
+  </tr> -->
 </tbody>
 </table>
 
@@ -228,7 +228,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td><a href="https://drive.google.com/file/d/12Fdmbyz-0jIDtj6swtJQzsuIk8LWEAw0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
     <td>coming</td>
   </tr>
-  <tr>
+ <!--  <tr>
     <td>COCONut-L</td>
     <td>58.1</td>
     <td>45.3</td>
@@ -241,6 +241,6 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td>70.6</td>
     <td>coming</td>
     <td>coming</td>
-  </tr>
+  </tr> -->
 </tbody>
 </table>
