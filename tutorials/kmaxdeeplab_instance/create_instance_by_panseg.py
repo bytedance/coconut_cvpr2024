@@ -174,3 +174,7 @@ if __name__ == "__main__":
                 
     with open(args.output,'w') as f:
         json.dump(out_annos,f,indent=4)
+
+
+    print('Converted annotations to instances successfully!')
+    print('Saved to {}'.format(args.output))
