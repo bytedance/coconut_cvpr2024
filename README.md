@@ -19,7 +19,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## 📢 News!
-* 4/28: COCONut is back to [huggingface](https://huggingface.co/collections/xdeng77/coconut-dataset-661da98608dd378c816a4398). [relabeled COCO-Val](https://huggingface.co/datasets/xdeng77/relabeled_coco_val) and [COCONut-S](https://huggingface.co/datasets/xdeng77/coconut_s) are available. COCONut-B is uploading, should arrive soon.
+* 4/28: COCONut is back to [huggingface](https://huggingface.co/collections/xdeng77/coconut-dataset-661da98608dd378c816a4398). [relabeled COCO-Val](https://huggingface.co/datasets/xdeng77/relabeled_coco_val), [COCONut-S](https://huggingface.co/datasets/xdeng77/coconut_s), and [COCONut-B](https://huggingface.co/datasets/xdeng77/coconut_b) are available.
 * 4/25: Tutorial on visualizing COCONut panoptic masks using detectron2. Turn the black mask image into overlayed colorful mask.
 * 4/24: Collected FAQs are out, please check them before you leave any issue.
 * 4/22: Tutorial on instance segmentation is out! More are coming!
@@ -30,7 +30,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 ### TODO
 - [x] Huggingface dataset preview on relabeled COCO-Val and COCONut-S
-- [ ] Huggingface preview on COCONut-B
+- [x] Huggingface preview on COCONut-B
 - [ ] Convert the annotation to semantic segmentation and object detection.
 - [ ] Release COCONut-L and COCONut-val by the end of April
 
@@ -38,7 +38,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 Splits    |  #images | #masks | images | kaggle | huggingface
 ----------|----------|--------|--------|--------|---------------
 COCONut-S | 118K     | 1.54M  | [download](http://images.cocodataset.org/zips/train2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [preview](https://huggingface.co/datasets/xdeng77/coconut_s)
-COCONut-B | 242K     | 2.78M  | [download](http://images.cocodataset.org/zips/unlabeled2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [coming]()
+COCONut-B | 242K     | 2.78M  | [download](http://images.cocodataset.org/zips/unlabeled2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [preview](https://huggingface.co/datasets/xdeng77/coconut_b)
 COCONut-L | 358K     | 4.75M  | [coming]() | [coming]() | [coming]()
 relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [preview](https://huggingface.co/datasets/xdeng77/relabeled_coco_val)
 COCONut-val | 25K     | 437K  | [coming]() | [coming]() | [coming]()
