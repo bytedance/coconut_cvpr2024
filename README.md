@@ -50,13 +50,13 @@ COCONut-val | 25K     | 437K  | [coming]() | [coming]()
 
 We only provide the annotation, for those who are interested to use our annotation will need to download the images from the links: [COCONut-S images](http://images.cocodataset.org/zips/train2017.zip), [COCONut-B images](http://images.cocodataset.org/zips/unlabeled2017.zip) and [relabeled COCO-val images](http://images.cocodataset.org/zips/val2017.zip).
 
-### * [Kaggle download link](https://www.kaggle.com/datasets/xueqingdeng/coconut/)
+### 🔗[Kaggle download link](https://www.kaggle.com/datasets/xueqingdeng/coconut/)
   
 You can use the web UI to download the dataset directly on Kaggle.
 
 If you find our dataset useful, we really appreciate if you can upvote our dataset on Kaggle, 
 
-### * [Huggingface dataset preview](https://huggingface.co/collections/xdeng77/coconut-dataset-661da98608dd378c816a4398)
+### 🔗[Huggingface dataset preview](https://huggingface.co/collections/xdeng77/coconut-dataset-661da98608dd378c816a4398)
   
 Directly download the data from huggingface or git clone the huggingface dataset repo will result in invalid data structure.
 
