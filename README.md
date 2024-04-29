@@ -65,6 +65,7 @@ Directly download the data from huggingface or git clone the huggingface dataset
 
 We recommend you to use our provided download script to download the dataset from huggingface.
 ```
+pip install datasets tqdm
 python download_coconut.py # default split: relabeled_coco_val
 ```
 
