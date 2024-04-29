@@ -29,7 +29,8 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 * 4/15: Huggingface download links are temporarily closed.
 
 ### TODO
-- [x] Huggingface dataset preview
+- [x] Huggingface dataset preview on relabeled COCO-Val and COCONut-S
+- [ ] Huggingface preview on COCONut-B
 - [ ] Convert the annotation to semantic segmentation and object detection.
 - [ ] Release COCONut-L and COCONut-val by the end of April
 
@@ -71,7 +72,7 @@ python download_coconut.py --split coconut_s
 ```
 
 The data will be saved at "./coconut_datasets" by default, you can change it to your preferred path by adding "--output_dir YOUR_DATA_PATH".
-COCONut-B is uploading.
+
 
 ## Tutorials
  * [visualization on COCONut panoptic masks](tutorials/visualization/demo.ipynb)
