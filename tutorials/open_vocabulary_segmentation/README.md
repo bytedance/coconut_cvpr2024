@@ -5,7 +5,7 @@
 - CUDA>=11.7, lower CUDA versions may result in not successfully built on detectron2
 - Mask2Former
 
-This document provides a brief intro of the usage of FC-CLIP.
+This document provides a brief intro of the usage of [FC-CLIP](https://github.com/bytedance/fc-clip).
 
 Please see [Getting Started with Detectron2](https://github.com/facebookresearch/detectron2/blob/master/GETTING_STARTED.md) for full usage.
 
