@@ -65,12 +65,13 @@ We recommend you to use our provided download script to download the dataset fro
 python download_coconut.py # default split: relabeled_coco_val
 ```
 
-You can switch to download coconut_s by adding "--split coconut_s" to the command.
+You can switch to download COCONut-S by adding "--split coconut_s" to the command.
 ```
 python download_coconut.py --split coconut_s
 ```
 
 The data will saved at "./coconut_datasets" by default, you can change it to your preferred path by adding "--output_dir YOUR_DATA_PATH".
+COCONut-B is uploading.
 
 ## Tutorials
  * [visualization on COCONut panoptic masks](tutorials/visualization/demo.ipynb)
