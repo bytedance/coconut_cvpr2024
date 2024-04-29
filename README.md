@@ -62,8 +62,15 @@ Directly download the data from huggingface or git clone the huggingface dataset
 
 We recommend you to use our provided download script to download the dataset from huggingface.
 ```
-python download_coconut.py # default split: relabeled_coco_val, you can switch to coconut_s
+python download_coconut.py # default split: relabeled_coco_val
 ```
+
+You can switch to download coconut_s by adding "--split coconut_s" to the command.
+```
+python download_coconut.py --split coconut_s
+```
+
+The data will saved at "./coconut_datasets" by default, you can change it to your preferred path by adding "--output_dir YOUR_DATA_PATH".
 
 ## Tutorials
  * [visualization on COCONut panoptic masks](tutorials/visualization/demo.ipynb)
