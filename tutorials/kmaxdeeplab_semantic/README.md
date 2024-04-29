@@ -28,6 +28,7 @@ pip install -e .
 
 3. Convert the downloaded panoptic segmentations to instances by using the following script.
 ```
+pip install git+https://github.com/cocodataset/panopticapi.git
 python prepare_coco_panoptic_semseg.py
 ```
 This script will automatically detect your DETECTRON2_DATASETS path, the default is "./datasets/coco".
