@@ -28,10 +28,13 @@ pip install -e .
 
 3. Convert the downloaded panoptic segmentations to instances by using the following script.
 ```
-python create_instance_by_panseg.py --mask-dir  YOUR_PANSEG_MASK_DIR
---image-dir YOUR_COCO_IMGAGE_DIR
---panseg-info YOUR_PANSEG_INFO_JSON_FILE
---output YOUR_OUTPUT_PATH
+python prepare_coco_panoptic_semseg.py
+```
+This script will automatically detect your DETECTRON2_DATASETS path, the default is "./datasets/coco".
+
+If you want to change your folder path, please export your dataset path using the script as below.
+```
+export DETECTRON2_DATASETS=YOUR_DATA_PATH
 ```
 
 4. Prepare the dataset structure.
