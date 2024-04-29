@@ -70,7 +70,7 @@ You can switch to download COCONut-S by adding "--split coconut_s" to the comman
 python download_coconut.py --split coconut_s
 ```
 
-The data will saved at "./coconut_datasets" by default, you can change it to your preferred path by adding "--output_dir YOUR_DATA_PATH".
+The data will be saved at "./coconut_datasets" by default, you can change it to your preferred path by adding "--output_dir YOUR_DATA_PATH".
 COCONut-B is uploading.
 
 ## Tutorials
