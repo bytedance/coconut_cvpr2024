@@ -51,6 +51,8 @@ COCONut-val | 25K     | 437K  | [coming]() | [coming]()
 
 We only provide the annotation, for those who are interested to use our annotation will need to download the images from the links: [COCONut-S images](http://images.cocodataset.org/zips/train2017.zip), [COCONut-B images](http://images.cocodataset.org/zips/unlabeled2017.zip) and [relabeled COCO-val images](http://images.cocodataset.org/zips/val2017.zip).
 
+We provide two methods to download the dataset annotations, details are as below。
+
 ### 🔗[Kaggle download link](https://www.kaggle.com/datasets/xueqingdeng/coconut/)
   
 You can use the web UI to download the dataset directly on Kaggle.
