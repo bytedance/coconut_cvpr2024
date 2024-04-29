@@ -35,13 +35,13 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 - [ ] Release COCONut-L and COCONut-val by the end of April
 
 ## Dataset Splits
-Splits    |  #images | #masks | images | annotations
+Splits    |  #images | #masks | images | kaggle | huggingface
 ----------|----------|--------|--------|-------------
-COCONut-S | 118K     | 1.54M  | [download](http://images.cocodataset.org/zips/train2017.zip) | [Kaggle](https://www.kaggle.com/datasets/xueqingdeng/coconut)
-COCONut-B | 242K     | 2.78M  | [download](http://images.cocodataset.org/zips/unlabeled2017.zip) | [Kaggle](https://www.kaggle.com/datasets/xueqingdeng/coconut)
-COCONut-L | 358K     | 4.75M  | [coming]() | [coming]()
-relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [Kaggle](https://www.kaggle.com/datasets/xueqingdeng/coconut)
-COCONut-val | 25K     | 437K  | [coming]() | [coming]()
+COCONut-S | 118K     | 1.54M  | [download](http://images.cocodataset.org/zips/train2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [preview](https://huggingface.co/datasets/xdeng77/coconut_s)
+COCONut-B | 242K     | 2.78M  | [download](http://images.cocodataset.org/zips/unlabeled2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [coming]()
+COCONut-L | 358K     | 4.75M  | [coming]() | [coming]() | [coming]()
+relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [preview](https://huggingface.co/datasets/xdeng77/relabeled_coco_val)
+COCONut-val | 25K     | 437K  | [coming]() | [coming]() | [coming]()
 
 
 
