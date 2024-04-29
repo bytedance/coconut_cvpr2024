@@ -30,7 +30,7 @@ pip install git+https://github.com/cocodataset/panopticapi.git
 
 # install the multi-scale deformable conv
 cd fcclip/modeling/pixel_decoder/ops
-pip install -3 . # it is recommended to use pip install instead of sh make.sh which does not work any more.
+pip install -e . # it is recommended to use pip install instead of sh make.sh which does not work any more.
 
 ```
 
