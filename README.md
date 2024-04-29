@@ -19,7 +19,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## 📢 News!
-* 4/29: COCONut is back to [huggingface](https://huggingface.co/collections/xdeng77/coconut-dataset-661da98608dd378c816a4398). 
+* 4/29: COCONut is back to [huggingface](https://huggingface.co/collections/xdeng77/coconut-dataset-661da98608dd378c816a4398). [relabeled_coco_val](https://huggingface.co/datasets/xdeng77/relabeled_coco_val) and [coconut_s](https://huggingface.co/datasets/xdeng77/coconut_s) are available. COCONut-B is uploading, should arrive soon.
 * 4/25: Tutorial on visualizing COCONut panoptic masks using detectron2. Turn the black mask image into overlayed colorful mask.
 * 4/24: Collected FAQs are out, please check them before you leave any issue.
 * 4/22: Tutorial on instance segmentation is out! More are coming!
@@ -29,7 +29,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 * 4/15: Huggingface download links are temporarily closed.
 
 ### TODO
-- [ ] Huggingface dataset preview
+- [x] Huggingface dataset preview
 - [ ] Convert the annotation to semantic segmentation and object detection.
 - [ ] Release COCONut-L and COCONut-val by the end of April
 
@@ -50,6 +50,20 @@ COCONut-val | 25K     | 437K  | [coming]() | [coming]()
 
 We only provide the annotation, for those who are interested to use our annotation will need to download the images from the links: [COCONut-S images](http://images.cocodataset.org/zips/train2017.zip), [COCONut-B images](http://images.cocodataset.org/zips/unlabeled2017.zip) and [relabeled COCO-val images](http://images.cocodataset.org/zips/val2017.zip).
 
+* [Kaggle download link](https://www.kaggle.com/datasets/xueqingdeng/coconut/)
+  
+You can use the web UI to download the dataset directly on Kaggle.
+
+If you find our dataset useful, we really appreciate if you can upvote our dataset on Kaggle, 
+
+* [Huggingface dataset preview](https://huggingface.co/collections/xdeng77/coconut-dataset-661da98608dd378c816a4398)
+  
+Directly download the data from huggingface or git clone the huggingface dataset repo will result in invalid data structure.
+
+We recommend you to use our provided download script to download the dataset from huggingface.
+```
+python download_coconut.py # default split: relabeled_coco_val, you can switch to coconut_s
+```
 
 ## Tutorials
  * [visualization on COCONut panoptic masks](tutorials/visualization/demo.ipynb)
