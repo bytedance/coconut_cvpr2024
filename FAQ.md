@@ -11,3 +11,7 @@ Please refer to [visualization](tutorials/visualization/demo.ipynb) for more det
 
 **Q2: Where is the annotations for instances that can be used by pycocotools**
 A: We don't provide direct download link for the instance masks. Instead, we provide a script to convert the instance masks for 'thing' from our panoptic segmentation masks to the instance polygons that can be loaded by pycocotools. Please refer to [kmaxdeeplab_instance](tutorials/kmaxdeeplab_instance) step 3 for details.
+
+
+**Q3: Getting wrong instance masks visualized from the convertion script?**
+A: Please check our [visualization tutorial](tutorials/kmaxdeeplab_instance/vis_converted_instance.ipynb) using pycocotools. 
