@@ -13,5 +13,5 @@ Please refer to [visualization](tutorials/visualization/demo.ipynb) for more det
 A: We don't provide direct download link for the instance masks. Instead, we provide a script to convert the instance masks for 'thing' from our panoptic segmentation masks to the instance polygons that can be loaded by pycocotools. Please refer to [kmaxdeeplab_instance](tutorials/kmaxdeeplab_instance) step 3 for details.
 
 
-**Q3: Getting wrong instance masks visualized from the convertion script?**
+**Q3: Getting wrong instance masks visualized from the convertion script using panoptic masks?**
 A: Please check our [visualization tutorial](tutorials/kmaxdeeplab_instance/vis_converted_instance.ipynb) using pycocotools. 
