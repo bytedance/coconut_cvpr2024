@@ -68,6 +68,8 @@ python train_net.py \
   --eval-only MODEL.WEIGHTS /path/to/checkpoint_file
 ```
 
+### Model zoo
+
 <table>
 <thead>
   <tr>
