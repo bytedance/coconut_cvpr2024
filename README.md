@@ -11,7 +11,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 #### 🔥 1st large-scale human verified dataset for segmentation, more info can be found at our [website](https://xdeng7.github.io/coconut.github.io/).
 
-#### 🔥 COCONut is now available at [Kaggle](https://www.kaggle.com/datasets/xueqingdeng/coconut/), welcome to download!
+#### 🔥 COCONut is now available at [Kaggle](https://www.kaggle.com/datasets/xueqingdeng/coconut/) and [huggingface](https://huggingface.co/collections/xdeng77/coconut-dataset-661da98608dd378c816a4398), welcome to download!
 
 <p>
 <img src="static/vis_masks_video_tasks_v2.gif" alt="teaser" width=90% height=90%>
@@ -32,7 +32,8 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 ### TODO
 - [x] Huggingface dataset preview on relabeled COCO-Val and COCONut-S
 - [x] Huggingface preview on COCONut-B
-- [ ] Convert the annotation to semantic segmentation and object detection.
+- [x] Convert the annotation to semantic segmentation.
+- [ ] Object detection dataset download link.
 - [ ] Release COCONut-L and COCONut-val by the end of April
 
 ## Dataset Splits
