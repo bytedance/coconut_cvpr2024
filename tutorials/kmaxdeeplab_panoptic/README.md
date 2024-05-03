@@ -95,7 +95,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td class="tg-baqh">AP_mask</td>
     <td class="tg-baqh">mIoU</td>
     <td class="tg-0lax">gdrive</td>
-    <td class="tg-0lax">baidu</td>
+    <td class="tg-0lax">huggingface</td>
   </tr>
   <tr>
     <td class="tg-nrix" rowspan="4">ResNet 50</td>
@@ -110,7 +110,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td class="tg-pb0m">37.1</td>
     <td class="tg-pb0m">62.5</td>
     <td class="tg-0lax"><a href="https://drive.google.com/file/d/1EyTbKUnFjUOEo57YZMawfl51LUkkLwXa/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
-    <td class="tg-0lax">coming</td>
+    <td class="tg-0lax"></td>
   </tr>
   <tr>
     <td class="tg-0lax">COCONut-S</td>
@@ -124,7 +124,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td class="tg-baqh">41.2</td>
     <td class="tg-baqh">63.6</td>
     <td class="tg-0lax"><a href="https://drive.google.com/file/d/1MPZJVIIs-F6AF8bSZo2wJXqlvO1k0Nrj/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
-    <td class="tg-0lax">coming</td>
+    <td class="tg-0lax"><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s"></td>
   </tr>
   <tr>
     <td class="tg-0lax">COCONut-B</td>
@@ -169,7 +169,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td>AP_mask</td>
     <td>mIoU</td>
     <td>gdrive</td>
-    <td>baidu</td>
+    <td>huggingface</td>
   </tr>
   <tr>
     <td rowspan="4">ConvNeXt-Large</td>
@@ -184,7 +184,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td>44.1</td>
     <td>66.4</td>
     <td><a href="https://drive.google.com/file/d/1JWwQY_VPCVKrmDhROHalYpXwpQoPJUqz/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
-    <td>coming</td>
+    <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s"></td>
   </tr>
   <tr>
     <td>COCONut-S</td>
@@ -198,7 +198,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td>45.7</td>
     <td>67.8</td>
     <td><a href="https://drive.google.com/file/d/14S2QrJqnlbeSK2qMyD3i01eoup4XsVOq/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
-    <td>coming</td>
+    <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s"></td>
   </tr>
   <tr>
     <td>COCONut-B</td>
@@ -212,7 +212,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td>46.5</td>
     <td>69.5</td>
     <td><a href="https://drive.google.com/file/d/12Fdmbyz-0jIDtj6swtJQzsuIk8LWEAw0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
-    <td>coming</td>
+    <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s"></td>
   </tr>
 </tbody>
 </table>
