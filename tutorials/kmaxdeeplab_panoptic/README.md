@@ -124,7 +124,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td class="tg-baqh">41.2</td>
     <td class="tg-baqh">63.6</td>
     <td class="tg-0lax"><a href="https://drive.google.com/file/d/1MPZJVIIs-F6AF8bSZo2wJXqlvO1k0Nrj/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
-    <td class="tg-0lax"><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s"></td>
+    <td class="tg-0lax"><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s">download</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">COCONut-B</td>
@@ -184,7 +184,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td>44.1</td>
     <td>66.4</td>
     <td><a href="https://drive.google.com/file/d/1JWwQY_VPCVKrmDhROHalYpXwpQoPJUqz/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
-    <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s"></td>
+    <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s">download</a></td>
   </tr>
   <tr>
     <td>COCONut-S</td>
@@ -198,7 +198,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td>45.7</td>
     <td>67.8</td>
     <td><a href="https://drive.google.com/file/d/14S2QrJqnlbeSK2qMyD3i01eoup4XsVOq/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
-    <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s"></td>
+    <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s">download</a></td>
   </tr>
   <tr>
     <td>COCONut-B</td>
@@ -212,7 +212,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td>46.5</td>
     <td>69.5</td>
     <td><a href="https://drive.google.com/file/d/12Fdmbyz-0jIDtj6swtJQzsuIk8LWEAw0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
-    <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s"></td>
+    <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_coconut_s">download</a></td>
   </tr>
 </tbody>
 </table>
