@@ -19,6 +19,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## 📢 News!
+* 5/6: Tutorial on [semantic segmentation](tutorials/kmaxdeeplab_semantic/README.md) is out!
 * 4/30: Tutorials on [open-vocabulary segmentation](tutorials/open_vocabulary_segmentation) and [object detection](tutorials/object_detection/README.md) are out!
 * 4/28: COCONut is back to [huggingface](https://huggingface.co/collections/xdeng77/coconut-dataset-661da98608dd378c816a4398). [relabeled COCO-Val](https://huggingface.co/datasets/xdeng77/relabeled_coco_val), [COCONut-S](https://huggingface.co/datasets/xdeng77/coconut_s), and [COCONut-B](https://huggingface.co/datasets/xdeng77/coconut_b) are available.
 * 4/25: Tutorial on visualizing COCONut panoptic masks using detectron2. Turn the black mask image into overlayed colorful mask.
@@ -85,6 +86,8 @@ The data will be saved at "./coconut_datasets" by default, you can change it to 
  * [panoptic segmentation](tutorials/kmaxdeeplab_panoptic/README.md)
 
  * [instance segmentation](tutorials/kmaxdeeplab_instance/README.md)
+
+ * [semantic segmentation](tutorials/kmaxdeeplab_semantic/README.md)
  
  * [open-vocabulary segmentation](tutorials/open_vocabulary_segmentation/README.md)
 
