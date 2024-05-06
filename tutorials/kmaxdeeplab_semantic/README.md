@@ -65,3 +65,49 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
 --machine-rank $WORKER_ID --dist-url tcp://$WORKER_0_HOST:$port \
 --config-file configs/coco/instance_segmentation/kmax_convnext_large.yaml 
 ```
+
+### Model zoo
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th></th>
+    <th>COCO-val</th>
+    <th>relabeled COCO-val</th>
+    <th>COCONut-val</th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>backbone</td>
+    <td>training set</td>
+    <td>mIoU</td>
+    <td>mIoU</td>
+    <td>mIoU</td>
+    <td>model</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Swin-L</td>
+    <td>COCO</td>
+    <td>67.1</td>
+    <td>70.9</td>
+    <td>68.1</td>
+    <td><a href="https://drive.google.com/file/d/1F9N8_B_nb3TkqpzCy6TMfaepXpLVpaqo/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
+  </tr>
+  <tr>
+    <td>COCONut-S</td>
+    <td>66.1</td>
+    <td>71.9</td>
+    <td>69.9</td>
+    <td><a href="https://drive.google.com/file/d/1G25n1fkRv2tPb5O_YbHqxHNf2ICxwV_n/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
+  </tr>
+  <tr>
+    <td>COCONut-B</td>
+    <td>67.4</td>
+    <td>72.4</td>
+    <td>71.3</td>
+    <td><a href="https://drive.google.com/file/d/1DhxcFOldzmx64qc_zFvdXf3lyC5bQtfX/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
+  </tr>
+</tbody>
+</table>
