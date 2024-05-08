@@ -98,16 +98,6 @@ The data will be saved at "./coconut_datasets" by default, you can change it to 
 We summarize the common issues in [FAQ.md](FAQ.md), please check this out before you create any new issues.
 
 
-## Bibtex  
-If you find our dataset useful, please cite:
-```
-@inproceedings{coconut2024cvpr,
-  author    = {Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen},
-  title     = {COCONut: Modernizing COCO Segmentation},
-  booktitle   = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year      = {2024},
-```
-
 ## More visualization on COCONut annotation
 <p>
 <img src="static/vis_simple_mask.png" alt="vis1" width=90% height=90%>
@@ -124,3 +114,14 @@ We follow the same license as [COCO dataset for images](https://cocodataset.org/
 * [FC-CLIP](https://github.com/bytedance/fc-clip.git)
 * [detectron2](https://github.com/facebookresearch/detectron2.git)
 
+## Bibtex  
+If you find our dataset useful, please cite:
+```
+@inproceedings{coconut2024cvpr,
+  author    = {Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen},
+  title     = {COCONut: Modernizing COCO Segmentation},
+  booktitle   = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year      = {2024},
+```
+
+    
