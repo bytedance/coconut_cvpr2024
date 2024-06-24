@@ -19,6 +19,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## 📢 News!
+* 6/24: Release COCONut-val and instance segmentation annotations.
 * 5/6: Tutorial on [semantic segmentation](tutorials/kmaxdeeplab_semantic/README.md) is out!
 * 4/30: Tutorials on [open-vocabulary segmentation](tutorials/open_vocabulary_segmentation) and [object detection](tutorials/object_detection/README.md) are out!
 * 4/28: COCONut is back to [huggingface](https://huggingface.co/collections/xdeng77/coconut-dataset-661da98608dd378c816a4398). [relabeled COCO-Val](https://huggingface.co/datasets/xdeng77/relabeled_coco_val), [COCONut-S](https://huggingface.co/datasets/xdeng77/coconut_s), and [COCONut-B](https://huggingface.co/datasets/xdeng77/coconut_b) are available.
@@ -34,8 +35,8 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 - [x] Huggingface dataset preview on relabeled COCO-Val and COCONut-S
 - [x] Huggingface preview on COCONut-B
 - [x] Convert the annotation to semantic segmentation.
-- [ ] Object detection dataset download link.
-- [ ] Release COCONut-L and COCONut-val by the end of April
+- [x] Release COCONut-val and instance segmentation annotations (no need to convert from the panoptic masks).
+- [ ] Release Release COCONut-L and object detection annotations.
 
 ## Dataset Splits
 Splits    |  #images | #masks | images | kaggle | huggingface
@@ -44,7 +45,7 @@ COCONut-S | 118K     | 1.54M  | [download](http://images.cocodataset.org/zips/tr
 COCONut-B | 242K     | 2.78M  | [download](http://images.cocodataset.org/zips/unlabeled2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [preview](https://huggingface.co/datasets/xdeng77/coconut_b)
 COCONut-L | 358K     | 4.75M  | [coming]() | [coming]() | [coming]()
 relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [preview](https://huggingface.co/datasets/xdeng77/relabeled_coco_val)
-COCONut-val | 25K     | 437K  | [coming]() | [coming]() | [coming]()
+COCONut-val | 25K     | 437K  |  [download](https://www.kaggle.com/datasets/xueqingdeng/coconut)| [coming]() | [coming]()
 
 
 
