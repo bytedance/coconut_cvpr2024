@@ -74,23 +74,23 @@ MASTER_ADDR=$WORKER_0_HOST_IP NODE_RANK=$NODE_ID GPUS_PER_NODE=8 \
   <tr>
     <td rowspan="3">Swin-L</td>
     <td>COCO</td>
-    <td>26.8</td>
-    <td>16.8</td>
-    <td>34.1</td>
+    <td>59.1</td>
+    <td>58.6</td>
+    <td>56.1</td>
     <td><a href="https://drive.google.com/file/d/1WMlOPexz1RwdjO2vpRgmR8Trq01kk7hm/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
   </tr>
   <tr>
     <td>COCONut-S</td>
-    <td>27.3</td>
-    <td>17.3</td>
-    <td>33.8</td>
+    <td>54.5</td>
+    <td>61.3</td>
+    <td>58.9</td>
     <td><a href="https://drive.google.com/file/d/1aRPJYH0sAMeVwxOOmNInnOzAq9hnAtf2/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
   </tr>
   <tr>
     <td>COCONut-B</td>
-    <td>27.4</td>
-    <td>17.4</td>
-    <td>33.7</td>
+    <td>59.3</td>
+    <td>62.2</td>
+    <td>60.1</td>
     <td><a href="https://drive.google.com/file/d/1g5l4IUJy-19rJZoJbSK5EVAShYHEhEJm/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
   </tr>
 </tbody>
