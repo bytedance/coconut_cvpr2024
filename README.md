@@ -43,9 +43,9 @@ Splits    |  #images | #masks | images | kaggle | huggingface
 ----------|----------|--------|--------|--------|---------------
 COCONut-S | 118K     | 1.54M  | [download](http://images.cocodataset.org/zips/train2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [preview](https://huggingface.co/datasets/xdeng77/coconut_s)
 COCONut-B | 242K     | 2.78M  | [download](http://images.cocodataset.org/zips/unlabeled2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [preview](https://huggingface.co/datasets/xdeng77/coconut_b)
-COCONut-L | 358K     | 4.75M  | [download](https://huggingface.co/datasets/xdeng77/coconut_large/tree/main) | [coming]() | [download](https://huggingface.co/datasets/xdeng77/coconut_large/tree/main)
+COCONut-L | 358K     | 4.75M  | [download](https://huggingface.co/datasets/xdeng77/coconut_large/tree/main) | [downoad](https://www.kaggle.com/datasets/xueqingdeng/coconut/) | [download](https://huggingface.co/datasets/xdeng77/coconut_large/tree/main)
 relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [preview](https://huggingface.co/datasets/xdeng77/relabeled_coco_val)
-COCONut-val | 25K     | 437K  |  [coming]() |[download](https://www.kaggle.com/datasets/xueqingdeng/coconut)| [coming]()
+COCONut-val | 25K     | 437K  |  [download](https://www.kaggle.com/datasets/xueqingdeng/coconut/) |[download](https://www.kaggle.com/datasets/xueqingdeng/coconut)| [coming]()
 
 
 
