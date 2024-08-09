@@ -36,7 +36,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 - [x] Huggingface preview on COCONut-B
 - [x] Convert the annotation to semantic segmentation.
 - [x] Release COCONut-val and instance segmentation annotations (no need to convert from the panoptic masks).
-- [ ] Release Release COCONut-L and object detection annotations.
+- [x] Release Release COCONut-L.
 
 ## Dataset Splits
 Splits    |  #images | #masks | images | kaggle | huggingface
