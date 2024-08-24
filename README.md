@@ -116,6 +116,8 @@ We follow the same license as [COCO dataset for images](https://cocodataset.org/
 * [kMax-DeepLab](https://github.com/bytedance/kmax-deeplab.git)
 * [FC-CLIP](https://github.com/bytedance/fc-clip.git)
 * [detectron2](https://github.com/facebookresearch/detectron2.git)
+* [SAMA-COCO](https://www.sama.com/sama-coco-dataset)
+* [COCO](https://cocodataset.org/#home)
 
 ## Bibtex  
 If you find our dataset useful, please cite:
