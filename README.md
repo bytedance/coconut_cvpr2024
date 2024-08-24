@@ -110,7 +110,8 @@ We summarize the common issues in [FAQ.md](FAQ.md), please check this out before
 </p>
 
 ## Terms of use
-We follow the same license as [COCO dataset for images](https://cocodataset.org/#termsofuse). For COCONut's annotations, non-commercial use are allowed. 
+* We follow the same license as [COCO dataset for images](https://cocodataset.org/#termsofuse). The dataset cannot be used for commercial purposes.
+* This is not an official ByteDance product. The dataset is created for research purposes.
 
 ## Acknowledgement
 * [SAMA-COCO](https://www.sama.com/sama-coco-dataset)
