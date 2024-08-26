@@ -214,5 +214,19 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td><a href="https://drive.google.com/file/d/12Fdmbyz-0jIDtj6swtJQzsuIk8LWEAw0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
     <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_panoptic">download</a></td>
   </tr>
+     <tr>
+    <td>COCONut-L</td>
+    <td>57.9</td>
+    <td>45.1</td>
+    <td>67.1</td>
+    <td>64.8</td>
+    <td>51.1</td>
+    <td>70.9</td>
+    <td>61.4</td>
+    <td>47.5</td>
+    <td>69.9</td>
+    <td><a href="https://drive.google.com/file/d/12Fdmbyz-0jIDtj6swtJQzsuIk8LWEAw0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
+    <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_panoptic">download</a></td>
+  </tr>
 </tbody>
 </table>
