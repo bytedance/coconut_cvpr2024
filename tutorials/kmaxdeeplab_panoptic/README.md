@@ -221,8 +221,8 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td>67.1</td>
     <td>64.8</td>
     <td>51.1</td>
-    <td>70.9</td>
-    <td>61.4</td>
+    <td>71.9</td>
+    <td>62.4</td>
     <td>47.5</td>
     <td>69.9</td>
     <td><a href="https://drive.google.com/file/d/1RoMrqqeNpJBrujsm8l3LW_eYMMdEuGTv/view?usp=sharing" target="_blank" rel="noopener noreferrer">download</a></td>
