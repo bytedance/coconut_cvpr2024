@@ -225,7 +225,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
     <td>61.4</td>
     <td>47.5</td>
     <td>69.9</td>
-    <td><a href="https://drive.google.com/file/d/12Fdmbyz-0jIDtj6swtJQzsuIk8LWEAw0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">download</a></td>
+    <td><a href="https://drive.google.com/file/d/1RoMrqqeNpJBrujsm8l3LW_eYMMdEuGTv/view?usp=sharing" target="_blank" rel="noopener noreferrer">download</a></td>
     <td><a href="https://huggingface.co/xdeng77/kmaxdeeplab_panoptic">download</a></td>
   </tr>
 </tbody>
