@@ -64,8 +64,28 @@ Need to set up your environment variables to run the training script below.
 export DETECTRON2_DATASETS=YOUR_DATASET_PATH
 python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
 --machine-rank $WORKER_ID --dist-url tcp://$WORKER_0_HOST:$port \
---config-file configs/coco/panoptic-segmentation/kmax_convnext_large.yaml 
+--config-file configs/coco/panoptic-segmentation/kmax_convnext_large.yaml
 ```
+
+## Explore COCONut-Large
+COCONut-Large consists of three subsets from COCO train2017, COCO unlabeled set and subsets from Objects365. To use the COCONut-Large panoptic masks, you should follow the steps below:
+1. Download the panoptic masks and annotation json file from [huggingface](https://huggingface.co/datasets/xdeng77/coconut_large/tree/main)
+2. Download the images from [Objects365](https://data.baai.ac.cn/details/Objects365_2020). The images are organized using patches, please follow the 'object365_patch_ids.txt' to download the corresponding raw patches.
+3. Follow the instruction to set up COCONut-B, which is used to build COCONut-L. The folder organization should be as follow:
+ ```
+datasets
+└── coco
+    ├── annotations 
+    │   └── panoptic_train2017.json # coconut-b.json
+    ├── panoptic_train2017  # coconut-b
+    ├── train2017 # original COCO dataset train and unlabeled set images
+```
+4. Link the Objects365 images and panoptic masks to the coco/train_2017 and coco/panoptic_train2017 respectively using the dataset path of COCONut-B.
+```
+objects365/images ----> coco/train2017
+object365/panoptic_masks ----> coco/panoptic_train2017
+```
+5. Merge the object365 json files to COCONut-B json files using the 'merged.py' script. Then it is ready to be used.
 
 
 ### Model zoo
