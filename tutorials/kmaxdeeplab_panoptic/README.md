@@ -88,6 +88,11 @@ object365/panoptic_masks ----> coco/panoptic_train2017
 5. Merge the object365 json files to COCONut-B json files using the 'merged.py' script. Then it is ready to be used.
 
 
+### Explore COCONut-val
+1. Similar to COCONut-Large, images need to be downloaded from Ojbects365, we provide a [link](https://drive.google.com/file/d/1-wzLtddJucBVBJ67ailLrfMNmLGFag4i/view?usp=sharing) to download the selected val set images. Link the image to COCO val2017.
+2. Download the panoptic masks from [huggingface](https://huggingface.co/datasets/xdeng77/coconut_val. Link the panoptic masks to COCO panoptci_val2017.
+3. Then merge the downloaded COCONut-val and relabeled COCO-val jsons using ```merged.py```.
+
 ### Model zoo
 
 <table class="tg">
