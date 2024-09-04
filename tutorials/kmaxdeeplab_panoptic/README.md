@@ -70,7 +70,7 @@ python3 train_net.py --num-gpus 8 --num-machines $WORKER_NUM \
 ## Explore COCONut-Large
 COCONut-Large consists of three subsets from COCO train2017, COCO unlabeled set and subsets from Objects365. To use the COCONut-Large panoptic masks, you should follow the steps below:
 1. Download the panoptic masks and annotation json file from [huggingface](https://huggingface.co/datasets/xdeng77/coconut_large/tree/main)
-2. Download the images from [Objects365](https://data.baai.ac.cn/details/Objects365_2020). The images are organized using patches, please follow the 'object365_patch_ids.txt' to download the corresponding raw patches.
+2. Download the images from [Objects365](https://data.baai.ac.cn/details/Objects365_2020). The images are organized using patches, please download the corresponding raw patches: patch25,patch32,patch35,patch40 from the official website.
 3. Follow the instruction to set up COCONut-B, which is used to build COCONut-L. The folder organization should be as follow:
  ```
 datasets
