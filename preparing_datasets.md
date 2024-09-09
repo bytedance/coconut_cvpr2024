@@ -1,6 +1,6 @@
 # Train 
 ## COCONut-S and B
-COCONut-S consists of COCO [train2017](http://images.cocodataset.org/zips/train2017.zip), and B consists of both COCO train and [unlabeled](http://images.cocodataset.org/zips/unlabeled2017.zip) set.
+COCONut-S consists of COCO [train2017](http://images.cocodataset.org/zips/train2017.zip), and B consists of both COCO [train2017](http://images.cocodataset.org/zips/train2017.zip) and [unlabeled](http://images.cocodataset.org/zips/unlabeled2017.zip) set.
 You should download the images from [COCO](https://cocodataset.org/#download) and our COCONut annotations from Kaggle or Huggingface.
 We follow detectron2 definition of the dataset. The dataset should be organized as follow:
 ```
