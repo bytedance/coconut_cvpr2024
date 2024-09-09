@@ -3,6 +3,7 @@
 COCONut-S consists of COCO [train2017](http://images.cocodataset.org/zips/train2017.zip), and B consists of both COCO train and [unlabeled](http://images.cocodataset.org/zips/unlabeled2017.zip) set.
 You should download the images from [COCO](https://cocodataset.org/#download) and our COCONut annotations from Kaggle or Huggingface.
 We follow detectron2 definition of the dataset. The dataset should be organized as follow:
+```
 datasets
 └── coco
     ├── annotations 
@@ -10,6 +11,7 @@ datasets
     ├── panoptic_train2017  # coconut-b / coconut-s
     ├── train2017 # original COCO dataset train and unlabeled set images / original COCO train set.
 ```
+
 It is noted that the folder names are fixed regardless using COCONut-S or COCONut-B. You can modify it in the detectron2 definition, but so far we don't support it.
 
 ## COCONut-L
