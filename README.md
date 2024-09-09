@@ -47,7 +47,7 @@ COCONut-L | 358K     | 4.75M  | [download](https://huggingface.co/datasets/xdeng
 relabeled-COCO-val | 5K | 67K | [download](http://images.cocodataset.org/zips/val2017.zip) | [download](https://www.kaggle.com/datasets/xueqingdeng/coconut) | [preview](https://huggingface.co/datasets/xdeng77/relabeled_coco_val)
 COCONut-val | 25K     | 437K  |  [download](https://www.kaggle.com/datasets/xueqingdeng/coconut/) |[download](https://www.kaggle.com/datasets/xueqingdeng/coconut)| [download](https://huggingface.co/datasets/xdeng77/coconut_val)
 
-Please refer to 🔗[preparing datasets](https://github.com/bytedance/coconut_cvpr2024/blob/main/preparing_datasets.md) for explore training and evaluation. 
+Please refer to 🔗[preparing datasets](https://github.com/bytedance/coconut_cvpr2024/blob/main/preparing_datasets.md) for exploring training and evaluation. 
 
 ## Get Started
 
