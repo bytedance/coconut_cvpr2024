@@ -53,7 +53,7 @@ datasets
 3. Then merge the downloaded COCONut-val and relabeled COCO-val jsons using ```merged.py```.
 
 ## Instance Segmentation
-Please refer to the instance segmentation tutorial for exploring converting panoptic masks to instance masks.
+Please refer to the [instance segmentation tutorial](https://github.com/bytedance/coconut_cvpr2024/tree/main/tutorials/kmaxdeeplab_instance) for exploring converting panoptic masks to instance masks.
 
 
 ## Object Detection
