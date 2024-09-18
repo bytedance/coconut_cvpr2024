@@ -51,3 +51,10 @@ datasets
 1. Similar to COCONut-Large, images need to be downloaded from Objects365, we provide a [link](https://drive.google.com/file/d/1-wzLtddJucBVBJ67ailLrfMNmLGFag4i/view?usp=sharing) to download the selected val set images. Link the image to COCO val2017.
 2. Download the panoptic masks from [huggingface](https://huggingface.co/datasets/xdeng77/coconut_val). Link the panoptic masks to COCO panoptci_val2017.
 3. Then merge the downloaded COCONut-val and relabeled COCO-val jsons using ```merged.py```.
+
+## Instance Segmentation
+Please refer to the instance segmentation tutorial for exploring converting panoptic masks to instance masks.
+
+
+## Object Detection
+Please refer to [bounding box extraction](https://github.com/bytedance/coconut_cvpr2024/blob/main/tutorials/object_detection/extract_bbox.py) script for extracting the bounding boxes from panoptic masks.
