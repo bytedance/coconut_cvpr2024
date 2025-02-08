@@ -19,6 +19,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## 📢 News!
+* 3/7/2025: Releasing COCONut-Pancap! Stay tuned!
 * 9/9: Relase a [tutorial](https://github.com/bytedance/coconut_cvpr2024/blob/main/preparing_datasets.md) to prepare all dataset splits for training and evaluation.
 * 6/24: Release COCONut-val and instance segmentation annotations.
 * 5/6: Tutorial on [semantic segmentation](tutorials/kmaxdeeplab_semantic/README.md) is out!
