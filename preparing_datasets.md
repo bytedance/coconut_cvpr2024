@@ -23,9 +23,9 @@ COCONut-Large consists of three subsets from COCO train2017, COCO unlabeled set 
 datasets
 └── coco
     ├── annotations 
-    │   └── panoptic_train2017.json # coconut-b.json
-    ├── panoptic_train2017  # coconut-b
-    ├── train2017 # original COCO dataset train and unlabeled set images
+    │   └── panoptic_train2017.json # coconut-large.json
+    ├── panoptic_train2017  # coconut-large
+    ├── train2017 # original COCO dataset train and unlabeled set images, and the downloaded objects365 images
 ```
 4. Link the Objects365 images and panoptic masks to the coco/train_2017 and coco/panoptic_train2017 respectively using the dataset path of COCONut-B.
 ```
@@ -33,6 +33,31 @@ objects365/images ----> coco/train2017
 object365/panoptic_masks ----> coco/panoptic_train2017
 ```
 5. Merge the object365 json files to COCONut-B json files using the 'merged.py' script. Then it is ready to be used.
+
+## COCONut-XL
+COCONut-XLarge consists of three subsets from COCO train2017, COCO unlabeled set and subsets from Objects365. To extend COCONut-Large to COCONut-XLarge, you should follow the steps below:
+1. Follow the steps above to prepare COCONut-Large.
+2. Download the panoptic masks and annotation json file of COCONut-XL from [huggingface](https://huggingface.co/datasets/xdeng77/coconut_xlarge/tree/main)
+3. Download the extra COCONut-XLarge images from Objects365. The patch ids are 17, 23, 25, 38, 42 using the following download script.
+   ```
+   i=[17,23,25,38,42]
+   wget https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch${i}.tar.gz
+   ```
+5. Follow the instruction to set up COCONut-B, which is used to build COCONut-L. The folder organization should be as follow:
+ ```
+datasets
+└── coco
+    ├── annotations 
+    │   └── panoptic_train2017.json # coconut-xlarge.json
+    ├── panoptic_train2017  # coconut-xlarge
+    ├── train2017 # COCONut-Large images
+```
+4. Link the Objects365 images and panoptic masks to the coco/train_2017 and coco/panoptic_train2017 respectively using the dataset path of COCONut-B.
+```
+objects365/images ----> coco/train2017
+object365/panoptic_masks ----> coco/panoptic_train2017
+```
+5. Merge the object365 json files to COCONut-L json files using the 'merged.py' script. Then it is ready to be used.
 
 
 # Eval
