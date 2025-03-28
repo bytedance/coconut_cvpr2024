@@ -19,6 +19,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## 📢 News!
+* 3/28/2025: COCONut-Pancap [region30k](https://huggingface.co/datasets/xdeng77/coconut_pancap_region_30k/tree/main) is released for the interest of region-level instruction data. More tutorials are coming!
 * 3/22/2025: COCONut-XLarge is avaible! Please check 🔗[preparing datasets](https://github.com/bytedance/coconut_cvpr2024/blob/main/preparing_datasets.md).
 * 3/7/2025: Releasing COCONut-Pancap! Stay tuned!
 * 9/9: Relase a [tutorial](https://github.com/bytedance/coconut_cvpr2024/blob/main/preparing_datasets.md) to prepare all dataset splits for training and evaluation.
