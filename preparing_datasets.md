@@ -40,7 +40,7 @@ COCONut-XLarge consists of three subsets from COCO train2017, COCO unlabeled set
 2. Download the panoptic masks and annotation json file of COCONut-XL from [huggingface](https://huggingface.co/datasets/xdeng77/coconut_xlarge/tree/main)
 3. Download the extra COCONut-XLarge images from Objects365. The patch ids are 17, 23, 25, 28,38, 42, 44 using the following download script.
 ```
-i=[17,23,25,38,42]
+i=[17,23,25,28,38,42,44]
 wget https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch${i}.tar.gz
 ```
 5. Follow the instruction to set up COCONut-B, which is used to build COCONut-L. The folder organization should be as follow:
