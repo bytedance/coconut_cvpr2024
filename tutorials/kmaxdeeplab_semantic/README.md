@@ -52,7 +52,7 @@ datasets
 ```bash
 export DETECTRON2_DATASETS=YOUR_DATA_PATH
 python3 train_net.py --num-gpus 8 --dist-url tcp://127.0.0.1:9999 \
---config-file configs/coco/instance_segmentation/kmax_convnext_large.yaml \
+--config-file configs/coco/semantic_segmentation/kmax_convnext_large.yaml \
 --eval-only MODEL.WEIGHTS YOUR_MODEL_PATH
 ```
 
