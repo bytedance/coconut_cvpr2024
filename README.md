@@ -19,7 +19,7 @@ Xueqing Deng, Qihang Yu, Peng Wang, Xiaohui Shen, Liang-Chieh Chen
 
 
 ## 📢 News!
-* 4/21/2026: Merge script is available: you can use this [script](you can refer to this file https://github.com/bytedance/coconut_cvpr2024/blob/main/tutorials/tools/merge_coconut.py similarly to merge val set.) to merge different training or validation set.
+* 4/21/2026: Merge script is available: you can use this [script](https://github.com/bytedance/coconut_cvpr2024/blob/main/tutorials/tools/merge_coconut.py) to merge different training or validation set.
 * 2/12/2026: COCONut-Pancap is fully available at huggingface: https://huggingface.co/datasets/xdeng77/coconut_pancap. Feel free to try and leave any comments.
 * 5/11/2025: COCONut-Pancap-50K panoptic grounding captions are vailable at [huggingface](https://huggingface.co/datasets/xdeng77/coconut_pancap_50k/tree/main). For the dense masks subset, we are still working on the final inspection.
 * 3/28/2025: COCONut-Pancap [region30k](https://huggingface.co/datasets/xdeng77/coconut_pancap_region_30k/tree/main) is released for the interest of region-level instruction data. More tutorials are coming!
